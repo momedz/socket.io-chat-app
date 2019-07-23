@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+   <head> <title>Chat app</title> </head>
+   <script src = "/socket.io/socket.io.js"></script>
+   <script src="./js/socket.io.js" ></script>
+
+   <body>
+      <div id = "error-container"></div>
+      <input id = "name" 
+         type = "text" 
+         name = "name" 
+         value = "" 
+         placeholder = "Enter your name!" 
+         onkeydown="enter(this, setUsername)">
+   </body>
+</html>
